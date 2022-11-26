@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("font/openSans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("font/Raleway/Raleway-VariableFont_wght.ttf");
+}p{
+    font-family: "OpenSans";
+}
+
+
+/*header*/
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    padding: 2rem 0;
+    font-family: "Raleway";
+}
+.logo-header{
+    width: 10rem;
+}
+.list-nav{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+.list-nav a{
+    color:  black;
+    text-decoration: none;
+}
+.list-nav a:hover{
+    text-decoration: underline;
+}
+
+/*main aection 1*/
+
+.container-files-secure{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    padding: 2rem 0;
+}
+.art-sec-1{
+  width: 50%;
+  padding-top: 3rem;  
+}
+.art-sec-1 h1{
+    font-size: 2rem;
+    line-height: 2.5rem;
+   margin-bottom: 1.5rem;
+   font-family: "Raleway";
+}
+.art-sec-1 p{
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+#email-box{
+    width: 60%;
+    padding:0.7rem;
+    border: 1px solid hsl(240, 70%, 78%);
+}
+#btn-sc1{
+    background-color:hsl(224, 93%, 58%) ;
+    border: none;
+    padding:0.75rem;
+    color: white;
+    width: 30%;
+    cursor: pointer;
+}
+#img-sec-1{
+    width: 40%;
+}
+
+/*main section 2*/
+
