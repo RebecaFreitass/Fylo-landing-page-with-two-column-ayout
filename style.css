@@ -48,7 +48,7 @@
     display: flex;
     justify-content: space-between;
     width: 90vw;
-    margin: auto;
+    margin: 0px auto 7rem;
     padding: 2rem 0;
 }
 .art-sec-1{
@@ -84,3 +84,20 @@
 
 /*main section 2*/
 
+.container-stay-productive{
+    background: url(images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.size{
+    width:90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.art-sec-2{
+    width: 50%;
+}
+#img-sec-2{
+    width: 40%;
+}
