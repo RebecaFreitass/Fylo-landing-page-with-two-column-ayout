@@ -25,6 +25,7 @@
     margin: auto;
     padding: 2rem 0;
     font-family: "Raleway";
+    align-items: center;
 }
 .logo-header{
     width: 10rem;
@@ -300,5 +301,84 @@ footer{
     }
     .boxes-footer{
         font-size: 0.9rem;
+    }
+}
+@media (max-width:470px) {
+    .list-nav{
+        font-size: 0.9rem;
+    }
+    .art-sec-1 h1 {
+        font-size: 1.5rem;
+    }
+   .container-header img{
+     width: 5rem;
+   }
+  .green-P-link ::before {
+     bottom: -13.8rem;
+   }
+   #img-sec-2 {
+     width: 70%;
+  }
+  .article-sc-3 {
+    width: 90%;
+  }
+  .email-get-aerly {
+    width: 90%;
+  }
+  .boxes-footer {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: baseline;
+ }
+   #img-footer{  
+     width: 9rem;
+     margin-bottom: 2rem;
+   }
+   .testimonial{
+    width: 90%;
+   }
+   .art-sec-2 h1 {
+    font-size: 1.5rem;
+   }
+   .art-sec-2 p {
+    font-size: 0.85rem;
+   }
+   .art-sec-1 p {
+    font-size: 0.85rem;
+  }
+  #img-sec-1 {
+     width: 80%;
+   }
+
+
+}
+
+@media (max-width: 385px){
+      .email-form{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        gap: 1rem;
+    }
+    #email-box {
+        width: 90%;
+    }
+    #btn-sc1{
+        width: 40%;
+    }
+    .green-P-link ::before {
+        display: none;
+    }
+    .testimonial {
+        width: 100%;
+    }
+    .art-sec-1 h1 {
+        line-height: 2rem;
+    }
+    .container-get-aerly {
+        padding: 3rem 2rem;
+    }
+    #btn-sc2 {
+        width: 70%;
     }
 }
