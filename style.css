@@ -254,8 +254,51 @@ footer{
     .size{
         flex-direction: column;
         align-items: center; 
+        gap: 3rem;
     }
     .art-sec-2 {
         width: 90%;
+    }
+    #img-sec-2 {
+        width: 50%;
+    }
+    .art-sec-2 {
+        width: 90%;
+        text-align: center;
+        gap: 3rem;
+    }
+    .art-sec-2 h1{
+        font-size: 1.8rem;
+    }
+    .art-sec-2 p{
+        font-size: 0.9rem;
+    }
+    .container-get-aerly{
+        flex-direction: column;
+        gap: 2rem;    
+    }
+    .article-sc-3 {
+        width: 61%;
+        color: white;
+        text-align: center;
+        gap: 2rem;
+    }
+    .email-get-aerly {
+        width: 60%;
+    }
+    .green-P-link ::before{
+        bottom: -17.8rem;
+    }
+    .testimonial p{
+        font-size: 0.8rem;
+    }
+    .ceo-text span{
+        font-size: 0.7rem;
+    }
+    #btn-sc2{
+        width: 60%;
+    }
+    .boxes-footer{
+        font-size: 0.9rem;
     }
 }
